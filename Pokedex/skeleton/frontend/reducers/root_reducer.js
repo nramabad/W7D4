@@ -1,10 +1,10 @@
-import {combineReducer} from 'react-redux';
+import {combineReducers} from 'redux';
 import entitiesReducer from './entities_reducer';
+import uiReducer from './ui_reducer';
 
 const rootReducer = combineReducers({
-  entities: entitiesReducer
-  // items: itemsReducer,
-  // ui: uiReducer
+  entities: entitiesReducer,
+  ui: uiReducer
 });
 
 
